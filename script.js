@@ -8,20 +8,20 @@ const questions = [
   {
     video: "imagens/video_boas_vindas.mp4",
     options: [
-      { text: "Vamos nessa!", video: "imagens/video_continuidade.mp4" },
+      { text: "Vamos nessa!", video: "imagens/video_inicio.mp4" },
       {
         text: "Talvez mais tarde, mas prometo que volto.",
-        video: "imagens/video_receita_frutas.mp4",
+        video: "imagens/video_mais_tarde.mp4",
         redirect: true,
       },
     ],
   },
   {
-    video: "imagens/video_boas_vindas.mp4",
+    video: "imagens/video_inicio.mp4",
     options: [
       {
         text: "Frutas, são docinhas e deliciosas!",
-        video: "imagens/video_continuidade.mp4",
+        video: "imagens/video_receita_frutas.mp4",
       },
       {
         text: "Legumes, adoro como eles são versáteis na culinária!",
@@ -34,11 +34,11 @@ const questions = [
     options: [
       {
         text: "Com certeza! Amo comer com a minha família.",
-        video: "imagens/video_continuidade.mp4",
+        video: "imagens/video_familia.mp4",
       },
       {
         text: "Minha família não costuma realizar refeições em conjunto :(",
-        video: "imagens/video_receita_frutas.mp4",
+        video: "imagens/video_familia-nutri.mp4",
       },
     ],
   },
