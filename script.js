@@ -10,7 +10,7 @@ const questions = [
     options: [
       { text: "Vamos nessa!", video: "imagens/video_continuidade.mp4" },
       {
-        text: "Talvez mais tarde, mas prometo que volto :)",
+        text: "Talvez mais tarde, mas prometo que volto.",
         video: "imagens/video_receita_frutas.mp4",
         redirect: true,
       },
