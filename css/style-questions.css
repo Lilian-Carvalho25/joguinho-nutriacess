@@ -7,12 +7,12 @@
 }
 
 body {
-    color: #FFFFFF;
+    color: #111;
     font-family: 'Lato', sans-serif;
 }
 
 .container-questions {
-    background: url(../imagens/fundo-amoras.png) center center no-repeat;
+    background: url(../imagens/fundo-claroo.png) center center no-repeat;
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -131,11 +131,40 @@ input[type="radio"] {
     top: 0;
     border-radius: 10px;
   }
+
+  /* TEMA ESCURO */
+  #theme-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+#theme-toggle img {
+  width: 30px;
+}
+
+.dark-theme {
+  background: url(../imagens/fundo-escuroo.png) center center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
   
 
   /* Responsividade */
 
   @media screen and (min-width:610px) {
+    #theme-toggle img {
+      width: 35px;
+    }
+
     .container-questions video {
       margin-top: 15px;
       width: 250px;
@@ -154,7 +183,11 @@ input[type="radio"] {
 }
 }
 
-@media screen and (min-width:870px) {
+@media screen and (min-width:800px) {
+  #theme-toggle img {
+    width: 40px;
+  }
+
   .container-questions {
     flex-direction: row;
 }
@@ -212,6 +245,21 @@ input[type="radio"] {
 
   .input-box {
     max-width: 550px;
+  }
+}
+
+@media  screen and (min-width:1490px) {
+  .container-questions video {
+    width: 345px;
+  }
+
+  .container-questions form {
+    margin-left: 70px;
+  }
+
+  .input-box {
+    max-width: 580px;
+    padding: 13px 13px;
   }
 }
 
