@@ -20,7 +20,7 @@ Seja muito bem vindo(a)! Este é um jogo simples, desenvolvido para a NutriAcess
 ###
 
 **Contribuintes:** [@valeskamdev](https://github.com/valeskamdev) e [@Lais205](https://github.com/Lais205) . <br>
-**Link do site:** <i>[clique aqui]() 
+**Link do site:** <i>[clique aqui](https://joguinho-nutriacess.vercel.app/index.html) 
 
 
 
