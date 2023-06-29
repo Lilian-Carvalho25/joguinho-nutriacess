@@ -15,11 +15,6 @@ body {
 .container-questions {
     background: url(../imagens/fundo-claroo.png) center center no-repeat;
     background-size: cover;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
 }
 
 .container-questions video {
@@ -58,7 +53,7 @@ input[type="radio"] {
 }
 
 
-  /* Botão */
+  /* BotÃ£o */
   .space-button {
     display: flex;
     justify-content: center;
@@ -158,7 +153,34 @@ input[type="radio"] {
   flex-direction: column;
   color: #731943;
 }
-  
+
+.animation {
+  height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+@keyframes surgir {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animacaoSurgir {
+  animation-name: surgir;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+}
+
 
   /* Responsividade */
 
@@ -167,12 +189,12 @@ input[type="radio"] {
       width: 35px;
     }
 
-    .container-questions video {
+    .animation video {
       margin-top: 15px;
       width: 250px;
   }
   
-  .container-questions form {
+  .animation form {
       margin-top: 18px;
       font-size: 1.1rem;
   }
@@ -190,15 +212,15 @@ input[type="radio"] {
     width: 40px;
   }
 
-  .container-questions {
+  .animation {
     flex-direction: row;
 }
 
-.container-questions video {
+.animation video {
   width: 270px;
 }
 
-.container-questions form {
+.animation form {
   margin-left: 25px;
 }
 
@@ -212,11 +234,11 @@ input[type="radio"] {
 }
 
 @media screen and (min-width:1000px) {
-  .container-questions video {
+  .animation video {
     width: 300px;
   }
 
-  .container-questions form {
+  .animation form {
     margin-left: 40px;
   }
 
@@ -231,11 +253,11 @@ input[type="radio"] {
 }
 
 @media  screen and (min-width:1320px) {
-  .container-questions video {
+  .animation video {
     width: 330px;
   }
 
-  .container-questions form {
+  .animation form {
     margin-left: 50px;
     font-size: 1.3rem;
   }
@@ -251,11 +273,11 @@ input[type="radio"] {
 }
 
 @media  screen and (min-width:1490px) {
-  .container-questions video {
+  .animation video {
     width: 345px;
   }
 
-  .container-questions form {
+  .animation form {
     margin-left: 70px;
   }
 
@@ -264,5 +286,3 @@ input[type="radio"] {
     padding: 13px 13px;
   }
 }
-
-  

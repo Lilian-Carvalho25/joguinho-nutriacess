@@ -30,15 +30,28 @@ const questions = [
     ],
   },
   {
-    video: "imagens/video_boas_vindas.mp4",
+    video: "imagens/video_receita_frutas.mp4",
     options: [
       {
         text: "Com certeza! Amo comer com a minha família.",
         video: "imagens/video_familia.mp4",
       },
       {
-        text: "Minha família não costuma realizar refeições em conjunto :(",
-        video: "imagens/video_familia-nutri.mp4",
+        text: "Faça parte da familía NutriAcess agora!",
+        video: "imagens/video_familia.mp4",
+      },
+    ],
+  },
+  {
+video: "imagens/video_familia.mp4",
+    options: [
+      {
+        text: "Com certeza!",
+        video: "imagens/video_saida.mp4",
+      },
+      {
+        text: "Tenha conciência de que o ambiente é um fator muito importante em relação a alimentação.",
+        video: "imagens/video_saida.mp4",
       },
     ],
   },
@@ -70,7 +83,7 @@ function submitAnswer(event) {
       formElement.style.display = 'none';
       setTimeout(() => {
         window.location.href = "index.html";
-      }, 8000);
+      }, 14000);
     } else {
       currentQuestion++;
       if (currentQuestion < questions.length - 1) {
@@ -79,7 +92,7 @@ function submitAnswer(event) {
         formElement.style.display = 'none';
         setTimeout(() => {
           window.location.href = "index.html";
-        }, 5000);
+        }, 29000);
       }
     }
   }
