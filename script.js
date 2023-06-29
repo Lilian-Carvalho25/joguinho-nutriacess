@@ -37,7 +37,7 @@ const questions = [
         video: "imagens/video_familia.mp4",
       },
       {
-        text: "Faça parte da familía NutriAcess agora!",
+        text: "Faço parte da familía NutriAcess agora!",
         video: "imagens/video_familia.mp4",
       },
     ],
@@ -50,7 +50,7 @@ video: "imagens/video_familia.mp4",
         video: "imagens/video_saida.mp4",
       },
       {
-        text: "Tenha conciência de que o ambiente é um fator muito importante em relação a alimentação.",
+        text: "Tenho conciência de que o ambiente é um fator muito importante em relação a alimentação.",
         video: "imagens/video_saida.mp4",
       },
     ],
