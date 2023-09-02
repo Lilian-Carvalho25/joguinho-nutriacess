@@ -8,6 +8,8 @@ Seja muito bem vindo(a)! Este é um jogo simples, desenvolvido para a NutriAcess
 - Tema escuro <br>
 - Jogo intuitivo <br>
 
+<img src="https://i.imgur.com/uZuU9yS.png" width="600px" />
+
 ## 🖥️ Tecnologias utilizadas:<br>
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
